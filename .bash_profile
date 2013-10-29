@@ -5,7 +5,7 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 # Alias
 alias bashreload=". ~/.bash_profile"
 alias stratus="cd ~/_source/stratus/ui"
-alias sourcecode="cd ~/_source"
+alias sc="cd ~/_source"
 alias ll='ls -la'
 alias g='grunt'
 
