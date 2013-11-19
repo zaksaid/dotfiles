@@ -19,3 +19,5 @@ alias gplog="git log --oneline"
 alias greb="git rebase -i"
 alias gser="git server"
 alias gyes="git yesterday"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
