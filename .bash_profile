@@ -8,6 +8,7 @@ alias stratus="cd ~/_source/stratus/ui"
 alias sc="cd ~/_source"
 alias ll='ls -la'
 alias g='grunt'
+alias gss='grunt css'
 
 # git alias
 alias gpum="git pull --rebase upstream master"
