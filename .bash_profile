@@ -21,5 +21,6 @@ alias greb="git rebase -i"
 alias gser="git server"
 alias gyes="git yesterday"
 alias gcount="git ls-files | xargs wc -l"
+alias gcommit="git for-each-ref --sort=-committerdate refs/heads/"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
