@@ -22,3 +22,6 @@
     today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
     yesterday = !git log --since=yesterday --author=\"$(git config user.name)\" --oneline
     
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
