@@ -19,7 +19,7 @@ alias gst="git status"
 alias gplog="git log --oneline"
 alias greb="git rebase -i"
 alias gser="git server"
-alias gyes="git yesterday"
+alias gyes="git log --pretty=format:'%Cred%h%Creset - %C(yellow)%ae%Creset - %Cgreen%cd%Creset - %s%Creset' --abbrev-commit --date=iso"
 alias gcount="git rev-list --count HEAD ^master"
 alias gcommit="git for-each-ref --sort=-committerdate refs/heads/"
 
